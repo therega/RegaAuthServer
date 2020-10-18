@@ -1,5 +1,6 @@
 # RegaAuthServer
 
+![Image alt](https://img.shields.io/github/downloads/therega/RegaAuthServer/v1.0.0-BETA/total?color=009900&logo=github&logoColor=ff2b2b)
 ![Image alt](https://img.shields.io/discord/726192072641478686?color=8000ff&label=discord&logo=discord&style=plastic)
 
 RegaAuthServer - это плагин заменяющий сразу несколько других плагинов на сервере авторизации.
