@@ -33,7 +33,7 @@ public class Spawn_API {
     try {
       cfg.save(file);
     } catch (IOException e) {
-      System.err.println("Местоположение " + name + " не удалось сохранить.");
+      System.err.println("РњРµСЃС‚РѕРїРѕР»РѕР¶РµРЅРёРµ " + name + " РЅРµ СѓРґР°Р»РѕСЃСЊ СЃРѕС…СЂР°РЅРёС‚СЊ.");
       e.printStackTrace();
     } 
   }
