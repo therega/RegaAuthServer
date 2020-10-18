@@ -26,8 +26,8 @@ public class Main extends JavaPlugin implements Listener
     private boolean protocolLib;
     public static ArrayList<String> allow_cmd;
     public static String msg;
-    public static String prefix = "§8[§cRegaSpawn§8]";
-    public static String noPerm = String.valueOf(prefix) + " §cÓ âàñ íåò íà ıòî ïğàâ!";
+    public static String prefix = "Â§8[Â§cRegaSpawnÂ§8]";
+    public static String noPerm = String.valueOf(prefix) + " Â§cĞ£ Ğ²Ğ°Ñ Ğ½ĞµÑ‚ Ğ½Ğ° ÑÑ‚Ğ¾ Ğ¿Ñ€Ğ°Ğ²!";
     
     public void onEnable() {
     	getCommand("setspawn").setExecutor((CommandExecutor)new SetSpawn());
