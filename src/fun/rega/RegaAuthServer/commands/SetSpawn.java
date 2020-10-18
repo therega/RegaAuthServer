@@ -15,9 +15,9 @@ public class SetSpawn implements CommandExecutor {
     if (p.hasPermission("system.setspawn")) {
       if (args.length == 0) {
         Spawn_API.setLocation(p.getLocation(), "spawn");
-        p.sendMessage(String.valueOf(Main.prefix) + " §aТочка спавна успешно установлена!");
+        p.sendMessage(String.valueOf(Main.prefix) + " В§aРўРѕС‡РєР° СЃРїР°РІРЅР° СѓСЃРїРµС€РЅРѕ СѓСЃС‚Р°РЅРѕРІР»РµРЅР°!");
       } else {
-        p.sendMessage(String.valueOf(Main.prefix) + " §cПравильное использование: §6/setspawn");
+        p.sendMessage(String.valueOf(Main.prefix) + " В§cРџСЂР°РІРёР»СЊРЅРѕРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ: В§6/setspawn");
       } 
     } else {
       p.sendMessage(Main.noPerm);
