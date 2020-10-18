@@ -20,11 +20,11 @@ public class Spawn implements CommandExecutor {
           Location loc = Spawn_API.getLocation("spawn");
           p.teleport(loc);
         } else {
-          p.sendMessage(String.valueOf(Main.prefix) + " §cТочка спавна еще не установлена!");
+          p.sendMessage(String.valueOf(Main.prefix) + " В§cРўРѕС‡РєР° СЃРїР°РІРЅР° РµС‰Рµ РЅРµ СѓСЃС‚Р°РЅРѕРІР»РµРЅР°!");
           p.closeInventory();
         } 
       } else {
-        p.sendMessage(String.valueOf(Main.prefix) + " §cПравильное использование: §f/spawn");
+        p.sendMessage(String.valueOf(Main.prefix) + " В§cРџСЂР°РІРёР»СЊРЅРѕРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ: В§f/spawn");
       }  
     return true;
   }
