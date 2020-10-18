@@ -1,6 +1,6 @@
 # RegaAuthServer
 
-![Image alt](https://img.shields.io/discord/726192072641478686?label=discord)
+![Image alt](https://img.shields.io/discord/726192072641478686?color=8000ff&label=discord&logo=discord&style=plastic)
 
 RegaAuthServer - это плагин заменяющий сразу несколько других плагинов на сервере авторизации.
 Позволяет отключить многие настройки сервера такие, как урон или голод, или же ломание блоков и т.д.
