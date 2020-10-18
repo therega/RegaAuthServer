@@ -1,0 +1,11 @@
+name: RegaAuthServer
+main: fun.rega.RegaAuthServer.Main
+version: 1.0
+author: TheRega
+website: (vk.com/therega)
+depend: [ProtocolLib]
+
+
+commands:
+     setspawn:
+     spawn:

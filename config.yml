@@ -1,0 +1,44 @@
+#Плагин разработал TheRega.
+#Если Вы обнаружите какой-либо баг, незамедлительно сообщите нам.
+#Vk: vk.com/therega, группа: vk.com/waterstudio_ru
+
+
+Settings:
+  noDamage: true # Запрет урона
+  noHunger: true # Запрет голода
+  noBreak: true # Запрет ломания блоков
+  noPlace: true # Запрет установки блоков
+  noFire: true # Запрет распостранения огня и сгорания блоков
+  noExplosions: true # Запрет взрывов
+  noMessage: true # Отключает сообщения при входе/выходе/кике/смерти
+  GameMode: ADVENTURE # Выдача игрового режима при заходе
+  noLeafDecay: true # Запрет изчезания листвы
+
+
+Effects:
+  Invisibility: true # Выдача эффекта невидимости при заходе
+  Speed: true # Выдача эффекта скорости при заходе
+
+LvlonJoin:
+  enabled: true # Включить выдачу опыта при заходе
+  amount: 1337 # Кол-во выдаваемого опыта
+
+Time:
+  fixed: true # Зафиксировать время в мире
+  meaning: 0 # Значение на котором зафиксировать
+  #Значение meaning: 0 - День
+  #Значение meaning: 15000 - Ночь
+
+Permissions:
+  bypassBreak: "bypassBreak" # Право чтобы ломать блоки если это запрещено
+  bypassPlace: "bypassPlace" # Право чтобы ставить блоки если это запрещено
+  bypassPvP: "bypassPVP" # Право для обхода ПВП 
+
+Commands:
+  msg: '&6RegaAuthServer >> &cЗдесь чат выключен...'
+  allow_cmd:
+  - 'reg'
+  - 'register'
+  - 'l'
+  - 'login'
+  - 'changepassword'
