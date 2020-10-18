@@ -42,8 +42,8 @@ public class Main extends JavaPlugin implements Listener
                                                      
             }        
         
-        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED + "RegaAuthAddon" + ChatColor.GRAY + "] " + ChatColor.GREEN + "Plugin enabled!");
-        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED + "RegaAuthAddon" + ChatColor.GRAY + "] " + ChatColor.GREEN + "My site - " + ChatColor.RED + "www.rega.fun");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED + "RegaAuthServer" + ChatColor.GRAY + "] " + ChatColor.GREEN + "Plugin enabled!");
+        Bukkit.getConsoleSender().sendMessage(ChatColor.GRAY + "[" + ChatColor.RED + "RegaAuthServer" + ChatColor.GRAY + "] " + ChatColor.GREEN + "My site - " + ChatColor.RED + "www.rega.fun");
         this.getLogger().info("Plugin successfully initialized.");
         try {
             Class.forName("com.comphenix.protocol.ProtocolLibrary");
